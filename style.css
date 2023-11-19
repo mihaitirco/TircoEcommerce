@@ -1,0 +1,58 @@
+body{
+background-color: rgba(216, 212, 212, 0.788);
+}
+#product-carousel .carousel-inner {
+    transition: transform 0.5s ease; /* Adjust the duration and timing function as needed */
+  }
+
+.figure-img{
+    height:60%;
+    width:20%;
+}
+
+.main-header{
+    justify-content: center;
+    text-align:center;
+    width:10%;
+    height:5%;
+    color:whitesmoke;
+    background-color: yellow;
+}
+.card-img-top{
+    height: 200px;
+    object-fit: contain;
+}
+.card{
+    width:15rem;
+}
+
+@media screen and (max-width:760px){
+    .main-header{
+        width:30%;
+    }  
+
+    
+        
+
+
+    .figure-img{
+    height:40%;
+        width:20%;
+        }
+
+        .card{
+            width:100%;
+           margin:10px;
+            justify-content: center;
+            text-align: center;
+        }
+        .card .btn-primary{
+            font-size:7px;
+        }
+}
+
+.cart_img{
+    width:80px;
+    height:80px;
+    object-fit:contain;
+}
